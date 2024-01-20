@@ -69,3 +69,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 - git branch -M main
 - git remote add origin https://github.com/younot34/web_lazismu.git
 - git push -u origin main
+
+## How to install
+- composer install
+- cp .env.example .env
+- php artisan key:generate
+- php artisan migrate
+
+## Problem solve
+- composer update
